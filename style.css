@@ -1,0 +1,153 @@
+html{
+	font-family:"kaushan script",san-serif;
+}
+body{
+     margin:0px;
+}
+.container{
+     height: 100vh;
+	 background:#A569BD;
+	 background:-webkit-linear-gradient(
+	 to right,
+	 #A569BD,
+	 #D7BDE2 );
+	 background:linear-gradient(
+	 to right,
+	 #A569BD,
+	 #D7BDE2 );
+	 display:flex;
+	 align-items: center;
+	 justify-content:center;
+}
+.content{
+	background-color:white;
+	height:90vh;
+	width:75vw;
+	border-radius:10px;
+	box-shadow:0 3px 6px rgba(0,0,0,0.16),0 3px 6px rgba(0,0,0,0.23);
+	padding:0.8em;
+	overflow:scroll;
+	
+}
+.title{
+	text-transform:uppercase;
+	text-align:center;
+	
+}
+.table{
+	width:100%;
+	border-left:0px;
+	border-right:0px;
+	border-top:15px;
+	border-bottom:15px;
+}
+td{
+	width :out;
+}
+td:nth-of-type(1){
+	font-size:1em;
+	font-weight:400;
+	color:blueviolet;
+}
+.center {
+	text-align:center;
+}
+.table tr:nth-child(even){
+	background-color:#D7BDE2 ;
+}
+.actions{
+	position:sticky;
+	top:1em;
+	right:1em;
+	display:flex;
+	justify-content:flex-end;
+}
+.close{
+	height:40px;
+	width:40px;
+	color:white;
+	background-color:blueviolet;
+	border-radius:50px;
+	display:inline-block;
+	box-shadow:0 3px 6px rgba(0,0,0,0.16),0 3px 6px rgba(0,0,0,0.23);
+	font-weight:300;
+	cursor:pointer;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	
+}
+.title-item{
+	font-size:2em;
+	text-transform:uppercase;
+}
+.position{
+	background-color:blueviolet;
+	color:white;
+	padding:10px;
+	border-radius:4px;
+	margin-left:5px;
+	margin-right:0.5em;
+}
+.underline{
+	border-bottom:solid 4px blueviolet;
+    padding-top:15px
+}
+.inline{
+	margin-left:15px;
+	margin-bottom:50px;
+	display:inline;
+}
+.item-image{
+	display:inline-block;
+	height:400px;
+	width:400px;
+	margin-bottom:20px;
+}
+iframe{
+	height:350px;
+	width:50%;
+	margin-top:10px;
+	margin-top:20px;
+	
+}	
+.style{
+	border-radius:10px;
+}
+.image {
+	height:400px;
+	width:450px;
+	margin-bottom:20px;
+}
+.left {
+	text-align:left;
+}
+.material-icons{
+	color:#c2a14a;
+}
+.table1 {
+	background-color:#FF00FF;
+	font-size:25px;
+	height:10vh;
+	width:20vw;
+	border-radius:10px;
+	margin-bottom:20px;
+	margin-top:20px;
+	text-align:center;
+	
+}
+.table2 {
+	background-color:#00FFFF;
+	height:40vh;
+	width:35vw;
+	border-radius:10px;
+	box-shadow:0 3px 6px rgba(0,0,0,0.16),0 3px 6px rgba(0,0,0,0.23);
+	padding:0.8em;
+	font-size:20px;
+	margin-bottom:20px;
+	margin-top:20px;
+}
+	
+	
+
+	
